@@ -12,14 +12,6 @@ const Footer = () => {
               Developing high-quality mobile applications and SaaS products with a focus on security and privacy.
             </p>
           </div>
-          <div className="space-y-4">
-            <h4 className="text-sm font-semibold text-gray-700">Contact Us</h4>
-            <p className="text-gray-600 text-sm">
-              <a href="mailto:privacy@holoscaledigital.com" className="hover:text-holoscale-secondary">
-                privacy@holoscaledigital.com
-              </a>
-            </p>
-          </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-500 text-sm">

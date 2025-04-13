@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -166,7 +165,7 @@ const Index = () => {
                       Our services are not intended for individuals under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect or solicit personal information from children. If we learn that we have collected personal information from a child, we will promptly delete that information.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      If you believe we have collected information from a child, please contact us immediately.
+                      If you believe we have collected information from a child, please contact our legal department through appropriate channels.
                     </p>
                   </section>
                 </Element>
@@ -175,26 +174,10 @@ const Index = () => {
                   <section className="mb-12">
                     <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">Changes to This Privacy Policy</h2>
                     <p className="text-gray-700 mb-4">
-                      We may update our Privacy Policy from time to time. We will notify you of any changes by posting the updated Privacy Policy on this page and updating the "Last Updated" date. We may also provide additional notification methods, such as an in-app notice or email, for material changes.
+                      We may update our Privacy Policy from time to time. We will notify you of any changes by posting the updated Privacy Policy on this page and updating the "Last Updated" date. We may also provide additional notification methods for material changes.
                     </p>
                     <p className="text-gray-700 mb-4">
                       We encourage you to review this Privacy Policy periodically for any changes. Your continued use of our applications and services after any modifications indicates your acceptance of the updated Privacy Policy.
-                    </p>
-                  </section>
-                </Element>
-
-                <Element name="contact" className="scroll-mt-24">
-                  <section className="mb-12">
-                    <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">Contact Us</h2>
-                    <p className="text-gray-700 mb-4">
-                      If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:
-                    </p>
-                    <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-4">
-                      <p className="font-medium mb-2">Holoscale Digital</p>
-                      <p className="text-gray-700">Email: privacy@holoscaledigital.com</p>
-                    </div>
-                    <p className="text-gray-700 mb-4">
-                      We will respond to your inquiries as soon as possible.
                     </p>
                   </section>
                 </Element>
