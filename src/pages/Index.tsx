@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -51,21 +52,6 @@ const Index = () => {
                     <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
                       <li>Name, email address, and contact details</li>
                       <li>Account credentials</li>
-                      <li>Profile information</li>
-                      <li>Payment and billing information</li>
-                      <li>User-generated content and communications</li>
-                    </ul>
-                    
-                    <h3 className="text-xl font-medium text-holoscale-secondary mb-3">Automatically Collected Information</h3>
-                    <p className="text-gray-700 mb-4">
-                      When you access our applications and services, we may automatically collect certain information, including:
-                    </p>
-                    <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
-                      <li>Device information (model, operating system, unique device identifiers)</li>
-                      <li>Log data (IP address, access times, app features used)</li>
-                      <li>Usage data and analytics</li>
-                      <li>Location data (if permission is granted)</li>
-                      <li>Cookies and similar tracking technologies</li>
                     </ul>
                   </section>
                 </Element>
@@ -77,15 +63,7 @@ const Index = () => {
                       We may use the information we collect for various purposes, including:
                     </p>
                     <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
-                      <li>Providing and maintaining our applications and services</li>
-                      <li>Processing transactions and managing your account</li>
-                      <li>Personalizing your user experience</li>
                       <li>Sending you technical notices, updates, security alerts, and administrative messages</li>
-                      <li>Responding to your comments, questions, and customer service requests</li>
-                      <li>Monitoring usage patterns and analyzing trends</li>
-                      <li>Improving our applications and services</li>
-                      <li>Detecting, preventing, and addressing technical issues and security breaches</li>
-                      <li>Complying with legal obligations</li>
                     </ul>
                   </section>
                 </Element>
@@ -147,10 +125,6 @@ const Index = () => {
                       <li><strong>Withdraw Consent:</strong> You can withdraw your consent at any time where we relied on your consent to process your information.</li>
                     </ul>
                     
-                    <p className="text-gray-700 mb-4">
-                      To exercise these rights, please contact us using the information provided in the "Contact Us" section.
-                    </p>
-                    
                     <h3 className="text-xl font-medium text-holoscale-secondary mb-3">App Permissions</h3>
                     <p className="text-gray-700 mb-4">
                       Our applications may request certain permissions, such as access to your camera, photos, location, or contacts. You can manage these permissions through your device settings. Disabling permissions may limit certain features of our applications.
@@ -163,9 +137,6 @@ const Index = () => {
                     <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">Children's Privacy</h2>
                     <p className="text-gray-700 mb-4">
                       Our services are not intended for individuals under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect or solicit personal information from children. If we learn that we have collected personal information from a child, we will promptly delete that information.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      If you believe we have collected information from a child, please contact our legal department through appropriate channels.
                     </p>
                   </section>
                 </Element>

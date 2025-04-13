@@ -17,8 +17,7 @@ const PolicyNavigation = () => {
     { id: 'data-retention', title: 'Data Retention' },
     { id: 'user-rights', title: 'Your Rights' },
     { id: 'children-privacy', title: 'Children\'s Privacy' },
-    { id: 'policy-updates', title: 'Policy Updates' },
-    { id: 'contact', title: 'Contact Us' }
+    { id: 'policy-updates', title: 'Policy Updates' }
   ];
 
   return (
