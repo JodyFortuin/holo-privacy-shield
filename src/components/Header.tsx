@@ -12,8 +12,11 @@ const Header = () => {
           </RouterLink>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <RouterLink to="/privacy" className="text-gray-600 hover:text-holoscale-secondary font-medium transition-colors">
+          <RouterLink to="/" className="text-gray-600 hover:text-holoscale-secondary font-medium transition-colors">
             Privacy Policy
+          </RouterLink>
+          <RouterLink to="/terms" className="text-gray-600 hover:text-holoscale-secondary font-medium transition-colors">
+            Terms of Service
           </RouterLink>
         </nav>
       </div>
