@@ -18,6 +18,9 @@ const Header = () => {
           <RouterLink to="/terms" className="text-gray-600 hover:text-holoscale-secondary font-medium transition-colors">
             Terms of Service
           </RouterLink>
+          <RouterLink to="/contact" className="text-gray-600 hover:text-holoscale-secondary font-medium transition-colors">
+            Contact
+          </RouterLink>
         </nav>
       </div>
     </header>

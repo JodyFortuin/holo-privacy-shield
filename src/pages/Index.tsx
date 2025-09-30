@@ -152,20 +152,6 @@ const Index = () => {
                     </p>
                   </section>
                 </Element>
-
-                <Element name="contact-us" className="scroll-mt-24">
-                  <section className="mb-12">
-                    <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">Contact Us</h2>
-                    <p className="text-gray-700 mb-4">
-                      If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
-                    </p>
-                    <p className="text-gray-700">
-                      <a href="mailto:jody606@icloud.com" className="text-holoscale-secondary hover:text-holoscale-primary underline">
-                        jody606@icloud.com
-                      </a>
-                    </p>
-                  </section>
-                </Element>
               </div>
             </div>
           </div>

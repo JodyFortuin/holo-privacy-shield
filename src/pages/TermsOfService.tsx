@@ -167,18 +167,6 @@ const TermsOfService = () => {
                   If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that these Terms will otherwise remain in full force and effect.
                 </p>
               </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">14. Contact Us</h2>
-                <p className="text-gray-700 mb-4">
-                  If you have any questions about these Terms of Service, please contact us at:
-                </p>
-                <p className="text-gray-700">
-                  <a href="mailto:jody606@icloud.com" className="text-holoscale-secondary hover:text-holoscale-primary underline">
-                    jody606@icloud.com
-                  </a>
-                </p>
-              </section>
             </div>
           </div>
         </div>
