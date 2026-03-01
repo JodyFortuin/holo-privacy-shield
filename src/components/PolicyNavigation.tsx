@@ -13,6 +13,7 @@ const PolicyNavigation = () => {
     { id: 'information-collection', title: 'Information Collection' },
     { id: 'information-use', title: 'Use of Information' },
     { id: 'information-sharing', title: 'Information Sharing' },
+    { id: 'third-party-ai', title: 'Third-Party AI Services' },
     { id: 'data-security', title: 'Data Security' },
     { id: 'data-retention', title: 'Data Retention' },
     { id: 'user-rights', title: 'Your Rights' },

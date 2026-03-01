@@ -6,7 +6,7 @@ import PolicyNavigation from '../components/PolicyNavigation';
 import { Element } from 'react-scroll';
 
 const Index = () => {
-  const lastUpdated = "April 13, 2025";
+  const lastUpdated = "March 1, 2026";
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -83,6 +83,44 @@ const Index = () => {
                     
                     <p className="text-gray-700 mb-4">
                       We do not sell your personal information to third parties.
+                    </p>
+                  </section>
+                </Element>
+
+                <Element name="third-party-ai" className="scroll-mt-24">
+                  <section className="mb-12">
+                    <h2 className="text-2xl font-semibold text-holoscale-primary mb-4">Third-Party AI Services</h2>
+                    <p className="text-gray-700 mb-4">
+                      Some of our applications, including Watchy AI and Watchy Grok, utilize third-party artificial intelligence services to provide AI-powered features. When you use these features, certain data is transmitted to these third-party services.
+                    </p>
+                    
+                    <h3 className="text-xl font-medium text-holoscale-secondary mb-3">Data Sent to AI Providers</h3>
+                    <p className="text-gray-700 mb-4">
+                      When you interact with AI features in our applications, the following data may be sent to third-party AI providers (such as OpenAI or xAI):
+                    </p>
+                    <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
+                      <li>Text messages and prompts you submit</li>
+                      <li>Voice transcriptions (when using voice input features)</li>
+                    </ul>
+                    
+                    <h3 className="text-xl font-medium text-holoscale-secondary mb-3">How Your Data is Protected</h3>
+                    <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
+                      <li>All data is transmitted via encrypted HTTPS connections</li>
+                      <li>Your API keys are stored securely in your device's Keychain</li>
+                      <li>We do not store your conversations on our servers - data is sent directly from your device to the AI provider</li>
+                    </ul>
+                    
+                    <h3 className="text-xl font-medium text-holoscale-secondary mb-3">Third-Party Privacy Policies</h3>
+                    <p className="text-gray-700 mb-4">
+                      The AI providers process your data according to their own privacy policies. We encourage you to review these policies:
+                    </p>
+                    <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
+                      <li><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-holoscale-secondary hover:underline">OpenAI Privacy Policy</a> (for Watchy AI)</li>
+                      <li><a href="https://x.ai/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-holoscale-secondary hover:underline">xAI Privacy Policy</a> (for Watchy Grok)</li>
+                    </ul>
+                    
+                    <p className="text-gray-700 mb-4">
+                      By using the AI features in our applications, you acknowledge and consent to the transmission of your data to these third-party AI providers for processing.
                     </p>
                   </section>
                 </Element>
